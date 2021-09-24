@@ -1,0 +1,23 @@
+<div class="container__item">
+    <div class="item__border-container item__container-main-item center-content">
+        <img  src="../../../../assets/img/item/main/{{ itemChosen  }}.png" 
+              alt="chosenImage" >
+    </div>
+    
+    
+    <div class="item__carousel hover">
+            <div class="item__border-container item__container-small-item center-content "  
+                 *ngFor="let item of imgCarousel"     
+                 (click)="chooseItem( item.name )">
+                <img [src]="item.url" [alt]="item.name" >
+            </div>
+    </div>
+
+    <div class=" item__container-feature">
+        <div class="flex flex-column "  
+             *ngFor="let item of itemFeatures">
+            <img class="item__icon-feature" [src]="item.icon" alt="Icon img" >
+            <label class="feature-text">{{ item.label }}</label>
+        </div>
+    </div>
+</div>

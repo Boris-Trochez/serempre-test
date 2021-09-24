@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+/* body, html {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;
+} */
+
+
+/* Shared classes */
+.flex {
+    display: flex;
+}
+
+.item__border-container {
+    border: 2px solid #EEEFF2;
+    border-radius: 10px;
+}
+
+.pd-1 {
+    padding: 2rem;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gray-text-color {
+    color: #6B7280;
+}
+
+.flex-column {
+    flex-direction: column;  
+    align-items: center;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mr {
+    margin-right: 22px;
+}
+
+.ml {
+    margin-left: 2rem;
+}
+
+.hover :hover {
+    border: 2px solid #1E96D4;
+    cursor: pointer;
+}

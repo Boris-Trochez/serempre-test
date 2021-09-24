@@ -1,0 +1,52 @@
+/* Shared classes */
+.img {
+    object-fit: cover;
+}
+
+
+.container__item {
+    height: 590px;
+    width: 591px;
+    position: sticky;
+}
+
+
+.item__container-main-item {
+    height: 332px;
+    width: 588px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.item__container-small-item {
+    height: 96px;
+    width: 183px;
+}
+
+.item__carousel {
+    max-width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 78px;
+}
+
+.item__container-feature {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.item__icon-feature {
+    height: 27px;
+    width: 22px;
+    margin-bottom: 16px;
+}
+
+.feature-text {
+    size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #111111;
+}
+

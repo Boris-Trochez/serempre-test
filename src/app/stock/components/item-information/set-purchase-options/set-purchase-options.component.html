@@ -1,0 +1,35 @@
+<h4>Choose your finish</h4>
+<div class="flex hover">
+    <div class="item__border-container pd ">
+        <h5>Ivory White</h5>
+        <p class="gray-text-color">Lorem  sit, amet consectetur adipisicing elit. voluptates, harum autem </p>
+    </div>
+    <div class="item__border-container pd ">
+        <h5>Matte Black</h5>
+        <p class="gray-text-color">Lorem, ipsum consectetur adipisicing elit.  cupiditate illo?</p>
+    </div>
+</div>
+
+<h4>Would you like to add extended warranty coverage?.</h4>
+<div class="flex features-container hover">
+    <div class="item__border-container pd hover" (click)="setItemPrice( -75 )">
+        <h5>2 years coverage</h5>
+        <p class="gray-text-color">For the past 75 years, Sennheiser has put sound first. </p>
+    </div>
+    <div class="item__border-container pd hover" (click)="setItemPrice( 75 )">
+        <h5>3 years coverage</h5>
+        <p class="gray-text-color">Lorem, ipsum consectetur adipisicing elit.  cupiditate illo?</p>
+        <span>+ $75</span>
+    </div>
+</div>
+
+<h4>Features.</h4>
+<div class="flex features-container hover">
+    <div class="item__border-container pd " (click)="setItemPrice( -25 )">
+        <h5>Voice assistant support</h5>
+    </div>
+    <div class="item__border-container pd"  (click)="setItemPrice( 25 )">
+        <h5>Customizable controls</h5>
+        <span>+ $25</span>
+    </div>
+</div>

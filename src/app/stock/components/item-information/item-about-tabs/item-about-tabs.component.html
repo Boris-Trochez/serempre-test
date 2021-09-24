@@ -1,0 +1,14 @@
+<div class="flex">
+    <div *ngFor="let tab of tabs">
+        <h4 class="mr" (click)="changeTab( tab.tabName )">{{ tab.tabName }}</h4>
+    </div>
+</div>
+<p class="gray-text-color" *ngIf="chosenTab.tabName === 'Overview'">
+    Lorem <strong>Overview</strong>  ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui, ratione maiores ducimus sapiente rem nihil hic perspiciatis expedita cumque fuga reprehenderit voluptatum odio id accusantium ea! Pariatur, animi et?
+</p>
+<p class="gray-text-color" *ngIf="chosenTab.tabName === 'Features'"> 
+    Lorem <strong>Features</strong> ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui, ratione maiores ducimus sapiente rem nihil hic perspiciatis expedita cumque fuga reprehenderit voluptatum odio id accusantium ea! Pariatur, animi et?
+</p>
+<p class="gray-text-color" *ngIf="chosenTab.tabName === 'What is in the box?'">
+    Lorem <strong>What's in the box?</strong> ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui, ratione maiores ducimus sapiente rem nihil hic perspiciatis expedita cumque fuga reprehenderit voluptatum odio id accusantium ea! Pariatur, animi et?
+</p>

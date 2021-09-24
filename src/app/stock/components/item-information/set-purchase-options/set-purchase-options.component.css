@@ -1,0 +1,11 @@
+.features-container  {
+    flex-direction: column;
+}
+
+.features-container h5, p {
+    margin: 0;
+}
+
+.pd {
+    padding: 1rem;
+}

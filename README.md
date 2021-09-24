@@ -1,6 +1,6 @@
 # SerempreApp
 
-Este proyecto fue muy nteresante y al tiempo exigente, dado que descubrí que aun me falta mejorar habilidades como la maquetación con css puro con el fin de lograr el diseño requerido. Realmente fue de las cosas que me tomo mucho tiempo, por esa misma razón no se logró realizar el diseño responsive para las diferentes pantallas solcitadas. De todos modos me alegra a ver podido tomar este reto, me ha dejado una enseñanza muy grande y motivación de seguir mejorando.
+Este proyecto fue muy interesante y al tiempo exigente, dado que descubrí que aun me falta mejorar habilidades como la maquetación con css puro con el fin de lograr el diseño requerido. Realmente fue de las cosas que me tomo mucho tiempo, por esa misma razón no se logró realizar el diseño responsive para las diferentes pantallas solcitadas. De todos modos me alegra haber podido tomar este reto, me ha dejado una enseñanza muy grande y motivación de seguir mejorando.
 
 Para ver el proyecto en Vercel, haga click en el siguiente enlance: https://serempre-app-njhz5v9wd-boris-trochez.vercel.app/
 
